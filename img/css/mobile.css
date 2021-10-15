@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px) {
+  html {
+    height: auto;
+    padding: 5px;
+  }
+  html body {
+    width: 100%;
+    height: auto;
+    min-width: 5400pxx;
+  }
+  html body .container {
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    border: 1px solid red;
+  }
+  html body .mob-image {
+    max-height: 700px;
+  }
+  html body .mob-image img {
+    position: relative;
+    top: -250px;
+    left: -50px;
+  }
+  html body .desc {
+    min-width: 575px;
+    width: 90% !important;
+    height: 400px !important;
+    padding: 0 50px;
+  }
+  html body .desc .desc-lil {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center;
+  }
+  html body .desc .app-desc {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: #f3f4f4;
+  width: 100;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .container {
+  width: 1200px;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .container .mob-image img {
+  width: 430px;
+  height: 1100px;
+}
+
+html body .container .desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 700px;
+  height: 300px;
+  margin: 80px;
+}
+
+html body .container .desc .faded {
+  color: rgba(160, 160, 160, 0.9);
+}
+
+html body .container .desc .stores img {
+  width: 150px;
+  height: 45px;
+  margin-right: 15px;
+}
+
+html body .container .desc .desc-lil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 25% !important;
+  min-height: 25% !important;
+  max-height: 25% !important;
+}
+
+html body .container .desc .desc-title {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+html body .container .desc .desc-title * {
+  margin-right: 15px;
+}
+
+html body .container .desc .desc-title img {
+  width: 400px;
+  height: 30px;
+}
+
+html body .container .desc .app-desc {
+  color: #004999;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+html body .container .desc .download-the-app {
+  color: #004999;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+}
+/*# sourceMappingURL=style.css.map */
