@@ -38,6 +38,10 @@
                justify-content: center !important;
                text-align: center;
                margin: 15px;
+
+               & .stores {
+                  max-width: 360px !important;
+               }
             }
 
             .app-desc {

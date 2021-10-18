@@ -41,6 +41,9 @@
     text-align: center;
     margin: 15px;
   }
+  html body .desc .desc-lil .stores {
+    max-width: 360px !important;
+  }
   html body .desc .app-desc {
     font-size: 18px;
     max-width: 360px;
