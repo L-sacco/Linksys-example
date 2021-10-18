@@ -1,43 +1,64 @@
 @media only screen and (max-width: 600px) {
    html {
-      height: auto;
-      padding: 5px;
+      height: 900px;
+      min-width: 360px;
 
       body {
-         width: 100%;
+         max-width: 95% !important;
          height: auto;
-         min-width: 5400pxx;
 
          .container {
             width: 100% !important;
             height: 100% !important;
             flex-direction: column-reverse;
-            border: 1px solid red;
          }
 
          .mob-image {
+            width: 360px;
+            height: 550px;
+            max-width: 360px;
             max-height: 700px;
+            overflow: hidden;
 
             img {
                position: relative;
-               top: -250px;
-               left: -50px;
+               top: -120px;
+               max-width: 360px;
+               width: 85% !important;
+               height: auto !important;
             }
          }
 
          .desc {
-            min-width: 575px;
-            width: 90% !important;
-            height: 400px !important;
-            padding: 0 50px;
+            width: 95% !important;
+            height: auto !important;
+            margin-left: 0 !important;
 
             .desc-lil {
                justify-content: center !important;
                text-align: center;
+               margin: 15px;
             }
 
             .app-desc {
-               font-size: 24px;
+               font-size: 18px;
+               max-width: 360px;
+            }
+
+            .desc-title {
+               max-width: 400px;
+
+               & img {
+                  width: 90% !important;
+                  min-width: 280px;
+                  height: 25px !important;
+               }
+            }
+
+            .download-the-app {
+               color: #004999;
+               font-family: "Roboto", sans-serif;
+               font-size: 36px !important;
             }
          }
       }
